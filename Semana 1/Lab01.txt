@@ -1,0 +1,26 @@
+Alumno: Baldeón Ayala, Willy Alexis
+-----------------------------------
+
+1.9-	Luego de implementar la librería Bootstrap a nuestro proyecto y aplicarla a nuestra
+	vista de inicio, la aplicación tiene cambios significativos en la interfaz.
+		(Ver imágenes adjuntas: "1.9.1 Configuración inicial del proyecto.png" y
+				      	"1.9.2 Configuración inicial del proyecto.png")
+
+2.4-	Luego de instalar la aplicación PgAdmin de Postgres, realizamos la conexión con la base
+	de datos teniendo en cuenta la información establecida durante la instalación de Odoo.
+		(Ver imágenes adjuntas: "2.4.1 Agregando estilos a las vistas existentes.png",
+				      	"2.4.2 Agregando estilos a las vistas existentes.png",
+					"2.4.3 Agregando estilos a las vistas existentes.png" y
+
+Conclusiones
+------------
+
+->	
+
+-->	
+
+--->	
+
+---->	
+
+----->	
