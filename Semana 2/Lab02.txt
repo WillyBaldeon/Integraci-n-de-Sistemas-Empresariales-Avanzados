@@ -1,8 +1,54 @@
 Alumno: Baldeón Ayala, Willy Alexis
 -----------------------------------
 
+Indique el nombre del modulo al que pertenece cada "Tablero" de opciones mostrado.
+
+    1er Tablero. Ausencias.
+    2do Tablero. Punto de venta.
+    3er Tablero. Facturacion.
+
+4.5 Activar modo desarrollador.
+
+    Imagen adjunta -> img/modo_desarrollador.png
+
+5. Creacion de modulo Odoo
+
+    Imagen adjunta -> img/crear_modulo.png
+
+5.10 Modifique los siguentes parametros: description, author, website.
+
+    Imagen adjunta -> img/modificar_manifest.png
+
+5.15 Visualizacion del modulo creado.
+
+    Imagen adjunta -> img/modulo_oddo.png
+
+
+Tarea: Elabore una descripcion breve de la funcionalidad que tiene cada uno de los elementos que se han creado como parte 
+del nuevo modulo en la siguente tabla.
+
+__init__.py     : Lo que se importa cuando inicia el modulo, en este caso los controladores y los modelos.
+__manifest__.py : Contiene la descripcion del modulo, nombre, version, descripcion, authonr, categoria, y todo lo que tenga que ver con el modulo.
+controllers     : Aqui van las peticiones http, los controladores, las rutas, etc.
+demo            : Es un archivo xml, donde puedes probar el modulo, te muestra espacios de texto, de objetos de prueba.
+models          : Aqui va todos los modelos, apis, del modulo, conexion a una base de datos.
+security        : Un archivo csv, donde va la seguridad del modulo.
+views           : Estan los templates y vistas del modulo.
+
 Conclusiones
 ------------
+
+1.- Existe mas documentacion para Odoo en Linux, que en Windows, en algunos errores, no encontraba ayuda para windows.
+2.- Odoo tiene tantas cosas que hace una dificil interaccion con sus modulos y herramientas.
+3.- Los archivos que genera un nuevo modulo son de extension .py entonces Odoo esta basado en Python.
+4.- Mientras mas modulos tiene un proyecto, se convierte mas pesado, genera muchas cosas, y crea una mala experiencia de usuario.
+
+1.- Filtramos los modulos de Odoo por aplicaciones instaladas, no instaladas, extras, y visualizamos los modulos mas usados.
+2.- Instalamos 4 modulos, Proyecto, Gestion de Inventario, Punto de Venta, y Gestion de Ausencias, cada uno con sus diferentes opciones.
+3.- Identificamos el tablero de cada modulo instalado, y nos familiarizamos con cada una de sus propiedades del tablero, esta hecho para cada necesidad.
+4.- Cambiamos el modo a desarrollador, y luego instalamos un modulo de prueba usando scaffold. y lo instalamos a nuestro proyecto.
+5.- Analizamos las funcionalidades de nuestro modulo instalado, y cada uno de sus elementos creados por defecto.
+
 
 ->	
 
