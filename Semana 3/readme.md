@@ -3,20 +3,17 @@
 
 # Procedimiento
 
-**3.16 Instalación de Módulo Inventarios**
+* **3.16 Instalación de Módulo Inventarios**   
+   **Una vez completada satisfactoriamente la configuración de módulo, vemos la pantalla de finalización:**
+        ![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%203/3.16%20Configuraci%C3%B3n%20ODOO%20CRM%20-%20Planificador%20de%20ventas.png)
 
-   Una vez completada satisfactoriamente la configuración de módulo, vemos la pantalla de finalización:
-   
-   ![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%203/3.16%20Configuraci%C3%B3n%20ODOO%20CRM%20-%20Planificador%20de%20ventas.png)
-   
-**4.10 Configuración ODOO CRM - Clientes**
 
-    Ver:
-
-    ![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%203/4.10%20Configuraci%C3%B3n%20ODOO%20CRM%20-%20Clientes.png)
+* **4.10 Configuración ODOO CRM - Clientes**
+    **Ver:**
+        ![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%203/4.10%20Configuraci%C3%B3n%20ODOO%20CRM%20-%20Clientes.png)
 
 **5.9 Equipo de Ventas - Equipo de ventas directas**
-    ![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%203/5.9%20Equipo%20de%20Ventas%20-%20Equipo%20de%20ventas%20directas.png)
+    ![Ver:](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%203/5.9%20Equipo%20de%20Ventas%20-%20Equipo%20de%20ventas%20directas.png)
 
 **5.12 Equipo de Ventas - Equipo de ventas directas**
     ![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%203/5.12%20Equipo%20de%20Ventas%20-%20Equipo%20de%20ventas%20directas.png)
