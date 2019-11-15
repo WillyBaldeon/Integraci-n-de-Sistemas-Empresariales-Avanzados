@@ -24,7 +24,7 @@
 
 # TAREA
 **1. Elabore una descripción breve de la funcionalidad que tiene cada uno de los elementos (archivos y/o carpetas) que se han creado como parte del nuevo módulo en la siguiente tabla: :**
-![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%202/5.16%20Creaci%C3%B3n%20de%20un%20m%C3%B3dulo%20en%20ODOO.png)
+![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%202/Tarea%201.png)
 
 ## Conclusiones:
 
