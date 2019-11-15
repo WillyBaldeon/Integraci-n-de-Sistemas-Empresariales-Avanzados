@@ -5,7 +5,7 @@
 
 # 2.2 Funcionamiento del Punto de Venta
 **Ver:**  
-![]()
+![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%207/2.2%20Funcionamiento%20del%20Punto%20de%20Venta.gif)
 
 # 2.3 Funcionamiento del Punto de Venta
 **Ver:**  
