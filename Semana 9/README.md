@@ -1,4 +1,4 @@
-## Laboratorio 07 - Punto de Venta
+## Laboratorio 09 - Módulo Básico y Herencia 
 *Alumno: Baldeón Ayala, Willy Alexis*
 
 ## Procedimiento
