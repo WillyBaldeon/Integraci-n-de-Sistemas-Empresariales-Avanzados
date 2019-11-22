@@ -17,7 +17,7 @@
 
 # 7.1 Verificación de API automática
 **Ver:**  
-![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/tree/master/Semana%209)
+![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%209/7.1%20Verificaci%C3%B3n%20de%20API%20autom%C3%A1tica.png)
 
 # 7.3 Verificación de API automática
 **Ver:**  
