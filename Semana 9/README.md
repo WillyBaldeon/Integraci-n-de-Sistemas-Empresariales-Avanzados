@@ -27,6 +27,10 @@
 **Ver:**  
 ![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%209/8.5%20Herencia%20de%20modelos.gif)
 
+# 9.1 Tarea
+**Ver:**  
+![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%209/9.2%20Tarea.gif)
+
 ## Conclusiones:
 * ->
 * --->
