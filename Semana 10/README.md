@@ -1,39 +1,37 @@
-## Laboratorio 09 - Módulo Básico y Herencia 
+## Laboratorio 10 - Llamadas a API externas
 *Alumno: Baldeón Ayala, Willy Alexis*
 
 ## Procedimiento
 
-# 3.7 Creación de módulo Facturación
-**Configuramos e iniciamos nuestro módulo con la vista "Series" implementda. Aquí podemos visualizar en una lista los registros correspondientes a nuestras series de la base de datos; como no hay ni una, procedemos a crear un par:**  
-![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%209/3.7%20Creaci%C3%B3n%20de%20m%C3%B3dulo%20Facturaci%C3%B3n.gif)
+# 2.5 Creación de modelo Documentos 
+**Configuramos detalles finales para la extensión "Documentos" de nuestro módulo. Entonces, instalamos la aplicación habilitando el modo desarrollador:**   
+![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%2010/2.5.1%20Creaci%C3%B3n%20de%20modelo%20Documentos.png)   
+**Vemos que la lista generada se puede editar directamente seleccionando algún registro en vez de desplegar un formulario adicional. Esto se logró gracias al atributo "editable".**
+![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%2010/2.5.2%20Creaci%C3%B3n%20de%20modelo%20Documentos.gif)
 
-# 5.2 Vista de búsqueda
-**Implementamos la función de búsqueda en nuestra lista. Por defecto, el módulo solo realiza la búsqueda del campo principal. Pero, nosotros modificamos esto para que podamos realizar búsquedas de otros campos en los registros. De este modo, conseguimos filtrar tanto por nombre como por prefijo:**  
-![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%209/5.2%20Vista%20de%20b%C3%BAsqueda.gif)
+# 4.2 Consumo de API externa
+**Nos registramos en la página APIsPERU con nuestro correo para que posteriormente nos envíen credenciales de acceso para utilizar su servicio (key de acceso).**   
+![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%2010/4.2%20Consumo%20de%20API%20externa.png)
 
-# 6.3 Data por defecto
-**Anteriormente ingresamos datos manualmente utilizando el formulario de creación. Ahora, codificamos un archivo "Data" con el que podemos añadir cuantos registros queramos replicando unas líneas de código. Al ejecutarse la aplicación,como esto se trata de un proceso interno, automáticamente se ingreserarán esos registros a nuestra base de datos:**  
-![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%209/6.3%20Data%20por%20defecto.png)
+# 4.5 Consumo de API externa
+**Iniciamos el Log de Odoo y vemos los mensajes que configuramos con el método "onChange" importado de la API recién establecida. Estos Logs indican cómo está interactuando el usuario con los cuadros de texto del formulario. Gracias al método mencionado, la aplicación detecta los cambios en el formulario y actúa de la manera más adecuada.**   
+![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%2010/4.5%20Consumo%20de%20API%20externa.gif)
 
-# 7.1 Verificación de API automática
-**Configuramos nuestro 'package.json' y de inmediato ejecutamos el comando 'npm install' para instalar las dependencias de nuestro proyecto:**  
-![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%209/7.1%20Verificaci%C3%B3n%20de%20API%20autom%C3%A1tica.png)
+# 4.9 Consumo de API externa
+**Configuramos la lógica de manejo de los datos ingresados por el usuario. De este modo, la aplicación difiere si los dígitos provistos corresponden a un número de DNI o RUC válido. Probamos la aplicación ingresando un número de DNI y seleccionamos la opción correspondiente. Lo que sucede es que la aplicación consulta directamente a la API y cuando obtiene una respuesta, los datos adecuados se cargarán automáticamente en los demás campos.**   
+![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%2010/4.9.1%20Consumo%20de%20API%20externa.gif)   
+**Así mismo, probamos la función de reconocimiento de RUC con la cadena de tiendas propuesta:**   
+![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%2010/4.9.2%20Consumo%20de%20API%20externa.gif)
 
-# 7.3 Verificación de API automática
-**Configuramos la conexión de nuestra aplicación con la base de datos correspondiente y probamos el consumo de la API. Para esto, basta con agregar las credenciales y el puerto de nuestro servidor, y generar una instancia de 'odoo-xmlrpc':**  
-![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%209/7.3%20Verificaci%C3%B3n%20de%20API%20autom%C3%A1tica.gif)
+# 5.3 Constraint o limitantes.
+**Puesto que ya creamos a un usuario con el número de DNI ingresado a continuación; el módulo niega la creación de este registro, porque se suponque que se trata de un campo único e irremplazable. A la vez, se muestra un diálogo en la parte superior.**   
+![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%2010/5.3%20Constraint%20o%20limitantes..gif)
 
-# 8.5 Herencia de modelos
-**Integramos una vista adicional y la configuramos con un modelo nuevo que hereda de otro existente. De este modo, conseguimos referenciar fácilmente los registros de ambos modelos y aplicarlos a la par en las diferentes vistas. El resultado es que, desde el módulo Facturación de Odoo, podemos acceder a nuestros registros 'Series' creados en nuestro propio módulo ¡Estamos unificando los módulos!**  
-![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%209/8.5%20Herencia%20de%20modelos.gif)
-
-# 9.2 Tarea
-**Aplicamos lo aprendido con los registros "Serie" para agregar un menú extra que maneje "Documentos" del formato establecido. Implementamos las funcionalidades de Editar y Buscar sobre nuestros datos:**  
-![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%209/9.2%20Tarea.gif)
+# 6.4 Campos relacionados
+**Probamos el formulario de creación de formularios seleccionando tanto el tipo de serie "Boleta" como de "Factura".**   
+![](https://github.com/WillyBaldeon/Integraci-n-de-Sistemas-Empresariales-Avanzados/blob/master/Semana%2010/6.4%20Campos%20relacionados.gif)
 
 ## Conclusiones:
-* Creamos un módulo propio y lo instalamos teniendo en cuenta los conocimientos previos acerca de la localización y configuración de la ruta de módulos externos. Esta aplicación tiene soporte con NODE para su funcionamiento con una API automática.
-* Comprendimos que cuando realizamos cambios únicamente a nivel '.xml', no hace falta recompilar nuestro código en Python. Es decir, no es necesario reiniciar el servicio de Odoo.
-* Desarrollamos de manera jerarquica y ordenada los diferentes apartados de nuestra aplicación, teniendo especial cuidado de mantener una estructura MVC para asegurar el orden.
-* Aprendimos a generar registros automáticos que se añadan a la base de datos mientras el módulo se instala. Esta práctica es muy útil y puede aplicarse en diversas situaciones en las que necesitemos de registros específicos para crear funcionalidades desde el primer momento.
-* Conocimos el método de herencia que permite interrelacionar modelos para que sus datos interactúen de manera sencilla. Aplicando esta técnica, conseguimos que un módulo propio de Odoo sea capaz de consultar datos de nuestro módulo personalizado.
+* Integramos una API pública a nuestro módulo ingresando una Key de acceso provista directamente por los encargados de dicho servicio. Utilizamos esta API para consultar número de DNI y RUC y obtener datos públicos.
+* Cuando agregamos dependencias a nuestra aplicación, antes de instalarlo debemos asegurarnos de que tales módulos están, a su vez, intalados y configurados. De lo contrario, Odoo no nos permitirá instalar nuestra aplicación.
+* Interactuamos con el Log de Odoo para ver en tiempo real distintos cambios y estados por los que pasa todo nuestro servidor.
